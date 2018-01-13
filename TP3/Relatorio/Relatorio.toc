@@ -1,0 +1,32 @@
+\changetocdepth {4}
+\select@language {english}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Transformador}}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Anal\IeC {\'\i }tica}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Computacional}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Ponto de opera\IeC {\c c}\IeC {\~a}o}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Estimativa dos par\IeC {\^a}metros}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Perdas no transformador}{8}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Perda por varia\IeC {\c c}\IeC {\~a}o de frequ\IeC {\^e}ncia}{9}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Perda por varia\IeC {\c c}\IeC {\~a}o de condutividade}{11}{subsubsection.1.2.3.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {M\IeC {\'a}quinas el\IeC {\'e}tricas trif\IeC {\'a}sicas}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Movimenta\IeC {\c c}\IeC {\~a}o do campo magn\IeC {\'e}tico}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}For\IeC {\c c}a e torque sobre o rotor}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}M\IeC {\'a}quinas s\IeC {\'\i }ncronas}{20}{section.2.3}
+\vspace {\cftbeforechapterskip }
+\renewcommand *{\cftappendixname }{APPENDIX \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Appendix}}{25}{section*.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Script em lua}}{27}{appendix.A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Tabelas }}{31}{appendix.B}

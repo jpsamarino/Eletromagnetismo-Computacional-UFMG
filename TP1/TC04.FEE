@@ -1,0 +1,75 @@
+[Format]      =  1
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[Depth]       =  1
+[LengthUnits] =  millimeters
+[ProblemType] =  planar
+[Coordinates] =  cartesian
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 0
+[BlockProps]  = 2
+  <BeginBlock>
+    <BlockName> = "Formamida"
+    <ex> = 84
+    <ey> = 84
+    <qv> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "vacuo"
+    <ex> = 1
+    <ey> = 1
+    <qv> = 0
+  <EndBlock>
+[ConductorProps]  = 2
+  <BeginConductor>
+    <ConductorName> = "P0"
+    <Vc> = 0
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+  <BeginConductor>
+    <ConductorName> = "p1"
+    <Vc> = 3183.6999999999998
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+[NumPoints] = 18
+6.9039999999999999	3.7000000000000002	0	0	0
+6.7960000000000003	3.798	0	0	0
+6.7990000000000004	3.5	0	0	0
+6.899	3.597	0	0	0
+6.0990000000000002	3.798	0	0	0
+6.101	3.4969999999999999	0	0	0
+11.890000000000001	5	0	0	0
+11.9	2.5	0	0	0
+11.92	9.3599999999999994	0	0	0
+11.880000000000001	-3.2200000000000002	0	0	0
+12.5	7.5	0	0	0
+12.5	0	0	0	0
+12.5	-3.2000000000000002	0	0	0
+12.5	9.4000000000000004	0	0	0
+-7.5999999999999996	13	0	0	0
+29.5	-10	0	0	0
+29.5	13	0	0	0
+-7.5	-10.1	0	0	0
+[NumSegments] = 14
+4	1	-1	0	0	0	0
+5	2	-1	0	0	0	0
+1	0	-1	0	0	0	0
+3	2	-1	0	0	0	0
+4	5	-1	0	0	0	0
+0	3	-1	0	0	0	2
+8	6	-1	0	0	0	1
+7	9	-1	0	0	0	1
+13	10	-1	0	0	0	1
+11	12	-1	0	0	0	1
+14	16	-1	0	0	0	0
+16	15	-1	0	0	0	0
+15	17	-1	0	0	0	0
+17	14	-1	0	0	0	0
+[NumArcSegments] = 0
+[NumHoles] = 0
+[NumBlockLabels] = 2
+6.4000000000000004	3.6400000000000001	1	-1	0	0
+1.8200000000000001	9.5500000000000007	2	-1	0	0

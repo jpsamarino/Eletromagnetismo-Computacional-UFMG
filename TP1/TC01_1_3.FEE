@@ -1,0 +1,60 @@
+[Format]      =  1
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[Depth]       =  5
+[LengthUnits] =  centimeters
+[ProblemType] =  planar
+[Coordinates] =  cartesian
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 0
+[BlockProps]  = 1
+  <BeginBlock>
+    <BlockName> = "Ar"
+    <ex> = 1
+    <ey> = 1
+    <qv> = 0
+  <EndBlock>
+[ConductorProps]  = 3
+  <BeginConductor>
+    <ConductorName> = "P1"
+    <Vc> = 5
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+  <BeginConductor>
+    <ConductorName> = "P2"
+    <Vc> = 0
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+  <BeginConductor>
+    <ConductorName> = "P3"
+    <Vc> = 0
+    <qc> = 0
+    <ConductorType> = 0
+  <EndConductor>
+[NumPoints] = 9
+-0.01	0	0	0	0
+2.5	0	0	0	0
+-0.01	-0.5	0	0	0
+2.4900000000000002	-0.5	0	0	0
+52	-0.59999999999999998	0	0	0
+52	45.5	0	0	0
+0	45.5	0	0	0
+1.498	-0.5	0	0	0
+3.4980000000000002	-0.5	0	0	0
+[NumSegments] = 9
+2	0	-1	0	0	0	0
+1	0	0.00050000000000000001	0	0	0	1
+0	6	-1	0	0	0	0
+6	5	-1	0	0	0	2
+5	4	-1	0	0	0	2
+2	7	0.01	0	0	0	2
+7	3	0.01	0	0	0	2
+8	3	0.01	0	0	0	2
+8	4	0.01	0	0	0	2
+[NumArcSegments] = 0
+[NumHoles] = 0
+[NumBlockLabels] = 1
+5.5899999999999999	8.8900000000000006	1	-1	0	0

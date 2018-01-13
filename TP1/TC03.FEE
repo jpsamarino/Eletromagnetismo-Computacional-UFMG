@@ -1,0 +1,66 @@
+[Format]      =  1
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[Depth]       =  1
+[LengthUnits] =  millimeters
+[ProblemType] =  planar
+[Coordinates] =  cartesian
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 0
+[BlockProps]  = 2
+  <BeginBlock>
+    <BlockName> = "germanio"
+    <ex> = 16
+    <ey> = 16
+    <qv> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "ar"
+    <ex> = 1
+    <ey> = 1
+    <qv> = 0
+  <EndBlock>
+[ConductorProps]  = 2
+  <BeginConductor>
+    <ConductorName> = "p0"
+    <Vc> = 0
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+  <BeginConductor>
+    <ConductorName> = "p10"
+    <Vc> = 10
+    <qc> = 0
+    <ConductorType> = 1
+  <EndConductor>
+[NumPoints] = 13
+3.5	3.9900000000000002	0	0	0
+5.5	3.9900000000000002	0	0	0
+7	3.98	0	0	0
+4.5	6.4900000000000002	0	0	0
+2	3.9900000000000002	0	0	0
+4.5	1.49	0	0	0
+2	6.5	0	0	0
+7	6.4900000000000002	0	0	0
+7	1.49	0	0	0
+2	1.5	0	0	0
+4.5	4	0	0	0
+4.5099999999999998	2.9900000000000002	0	0	0
+4.5	4.9900000000000002	0	0	0
+[NumSegments] = 6
+6	4	-1	0	0	0	0
+4	9	-1	0	0	0	0
+6	7	0.01	0	0	0	2
+7	2	-1	0	0	0	0
+2	8	-1	0	0	0	0
+8	9	0.01	0	0	0	1
+[NumArcSegments] = 4
+0	11	90.572938697683483	1	0	0	0	0
+1	12	90	1	0	0	0	0
+11	1	89.427061302316531	1	0	0	0	0
+12	0	90	1	0	0	0	0
+[NumHoles] = 0
+[NumBlockLabels] = 2
+4.4699999999999998	5.7300000000000004	2	-1	0	0
+4.4900000000000002	3.9500000000000002	1	-1	0	0

@@ -1,0 +1,23 @@
+
+#domain: 0.6 0.6
+#dx_dy: 0.0025 0.0025
+#time_window: 8.0e-9
+
+-------------------------------------------------------------
+#line_source: 1.0 900e6 ricker MyLineSource
+-------------------------------------------------------------
+#analysis: 1 teste2 b
+#tx: 0.1 0.15 MyLineSource 0.0 8.0e-9
+#rx: 0.1 0.15
+#rx: 0.2 0.15
+#rx: 0.3 0.15
+#rx: 0.4 0.15
+#end_analysis:
+------------------------------------------------------------
+#title: Model of rebar in concrete
+#messages: y
+#geometry_file: teste2.geo
+
+
+
+

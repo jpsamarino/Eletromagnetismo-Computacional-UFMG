@@ -1,0 +1,15 @@
+#domain: 0.7 0.3
+#dx_dy: 0.0025 0.0025
+#time_window: 8.0e-9
+---------------------------------------------------------------------------
+#line_source: 1.0 900e6 ricker MyLineSource
+#analysis: 1 free.sca b
+#tx: 0.3 0.15 MyLineSource 0.0 8.0e-9
+#rx: 0.3 0.15
+#rx: 0.6 0.15
+#end_analysis:
+---------------------------------------------------------------------------
+#title: Free space propagation
+#messages: y
+#geometry_file: free.geo
+
